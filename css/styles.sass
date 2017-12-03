@@ -1,0 +1,216 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "normalize"
+@import "fonts"
+
+$bg-color: #555
+$text-color: #eee
+$header-bg-color: #000
+$highlight-color: orange
+
+$fancy-stack: Bodoni, "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, serif
+$serif-stack: Georgia, serif
+
+$max-width: 40em
+$break: 960px
+$vertical-rhythm: 1.5em
+
+html
+  background: $bg-color
+  padding-top: 1em
+body
+  color: $text-color
+  font-size: 87.5%
+  @media screen and (min-width: $break)
+    font-size: 100%
+  line-height: 1.5
+  font-family: Georgia, serif
+  text-shadow: 0 1px 1px rgba(0,0,0,.25)
+a
+  color: inherit
+  text-decoration: none
+  border-bottom: 1px dotted $text-color
+h1, h2, h3, h4
+  font-family: $fancy-stack
+  color: $highlight-color
+h1
+  font-weight: normal
+  font-size: 2.5em
+h2, h4
+  text-transform: uppercase
+  letter-spacing: .1em
+figure, .wp-caption
+  margin: $vertical-rhythm 0
+  text-align: center
+  width: auto !important // override WP's width
+  a
+    border: 0
+  img
+    display: block
+    margin: 0 auto
+    max-width: 24em
+  img.landscape
+    max-width: 100%
+  img.narrow
+    max-width: 16em
+  img.wide
+    max-width: 150%
+    margin: 0 -25%
+figcaption, .wp-caption-text
+  font-size: .875em
+  line-height: 1.25em
+  color: mix(#000, $text-color, 20%)
+  margin: .5em
+img
+  width: auto
+  max-width: 100%
+  height: auto
+img[class*="wp-image"]
+  display: block
+  max-width: 24em
+  margin: 0 auto
+.wp-post-image
+  box-shadow: 0 2px 4px rgba(0,0,0,.25)
+article
+  max-width: $max-width
+  margin: 0 auto
+  padding: 3em 5%
+  header
+    text-align: center
+    margin-bottom: 3em
+
+.site-header
+  font-family: $fancy-stack
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  background-color: $header-bg-color
+  z-index: 1
+  box-shadow: 0 2px 2px rgba(0,0,0,.1)
+.logo
+  font-size: 1.5em
+  line-height: 1
+  text-transform: uppercase
+  padding: 0 .5em
+  float: left
+  a
+    border: 0
+.site-nav
+  float: left
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+  a
+    display: block
+    padding: .45em 1em .05em 0
+    line-height: 3em
+    border: 0
+    color: #666
+    font-family: $serif-stack
+    font-style: italic
+
+body.admin-bar .site-header
+  top: 28px
+
+.post-title
+  text-align: center
+.post-date
+  font-size: 1em
+  letter-spacing: .2em
+  margin-top: -1em
+.leave-a-comment
+  text-align: center
+  margin-top: 2em
+  color: darken($text-color, 25%)
+  font-style: italic
+#comments
+  background: darken($bg-color, 10%)
+  h2
+    text-transform: none
+    letter-spacing: 0
+    font-weight: normal
+    margin-bottom: 1.5em
+#respond, .comments-wrapper
+  padding: 2em 5%
+  max-width: $max-width
+  margin: 0 auto
+.comment-list
+  padding: 0
+  list-style: none
+.comment
+  padding: .5em 0
+.children
+  padding: .5em 1em
+  list-style: none
+  border-left: 2px solid darken($bg-color, 12%)
+.comment-intro
+  text-transform: uppercase
+  font-size: .875em
+  letter-spacing: .1em
+  color: darken($text-color, 50%)
+  margin: 0
+  a
+    border: 0
+  em
+    text-transform: none
+.comment-reply-link
+  text-transform: none
+  color: darken($text-color, 20%)
+.respond-wrapper
+  background: darken($bg-color, 15%)
+.comment-form
+  label
+    display: inline-block
+    width: 15%
+  input, textarea
+    padding: .5em
+    border: 0
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.2)
+  textarea
+    width: 80%
+.form-allowed-tags
+  padding-left: 16%
+  font-size: .8em
+.form-submit
+  text-align: center
+  input
+    color: $text-color
+    border-radius: .25em
+    padding: .5em 1em
+    box-shadow: 0 2px 2px rgba(0,0,0,.1)
+    text-shadow: 0 -1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(255,255,255,.1)
+    background: $highlight-color
+    font-family: $fancy-stack
+    text-transform: uppercase
+    letter-spacing: .1em
+    font-weight: bold
+    font-size: 1.2em
+
+.site-footer
+  background: darken($bg-color, 20%)
+  color: darken($text-color, 30%)
+  a
+    border-bottom-color: inherit
+  .footer-wrapper
+    padding: 2em 5%
+    max-width: $max-width
+    margin: 0 auto
+    overflow: hidden
+  h2
+    font-size: 1.25em
+.copyright
+  text-align: right
+  float: left
+  width: 33%
+.linkcat
+  list-style: none
+  margin-bottom: 1.5em
+  float: left
+  width: 65%
+  margin-right: 2%
+.blogroll
+  padding-left: 1em

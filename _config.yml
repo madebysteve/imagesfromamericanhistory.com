@@ -1,0 +1,31 @@
+# Site settings
+title: "Images from American History"
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.imagesfromamericanhistory.com"
+permalink: /:slug/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from _site
+exclude:
+  - CNAME
+  - README.markdown
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: posts
+    values:
+      layout: post
