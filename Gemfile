@@ -1,10 +1,4 @@
 source "https://rubygems.org"
-ruby "2.4.2"
+ruby "2.7.1"
 
-gem "jekyll", "3.6.2"
-
-group :jekyll_plugins do
-  gem "github-pages", "171"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-end
+gem "github-pages", group: :jekyll_plugins
