@@ -13,16 +13,14 @@ Happy reading!
 
 ## The Author
 
-Kate Scott is a Collections Assistant at the Indiana Historical Society and a doctoral candidate in the Department of Art History at Rutgers University, where she specializes in American art and the history of photography. She also has an M.A. in Art History and a B.F.A. in Photojournalism. Kate lives in Indianapolis and has an unfair mistrust of people with nothing on their walls.
+Kate Scott is a public history librarian at the Indiana Historical Society, where she answers patron questions on everything from Civil War uniforms to tenderloins as big as your head. She received her PhD in Art History from Rutgers University in 2016, specializing in American art and the history of photography. Kate lives in Indianapolis and has an unfair mistrust of people with nothing on their walls.
 
-[Website and CV](http://katescott.net)
-
-[Press](http://support.rutgers.edu/s/896/Foundation/GiveStories.aspx?sid=896&gid=1&pgid=4876)
+[Website and CV](https://www.katescott.net/)
 
 ## Disclaimers
 
-- These entries are carefully thought through and supported by scholarly research, but occasionally engage with material I am just learning about. If there is anything you would like to add to the discussion, please post a comment or contact me personally!
-- I employ the term “American” self-consciously, with the awareness that for many people it refers more broadly to the Americas as a whole. If “United Statesian” sounded less awkward, I would use that instead.
-- The opinions expressed in this blog are my own and do not reflect the views or opinions of Rutgers University or the Indiana Historical Society.
+- These entries are carefully thought through and supported by scholarly research, but occasionally engage with material I am just learning about. If there is anything you would like to add to the discussion, please post a comment or contact me personally.
+- I employ the term “American” self-consciously in relation to the United States, with the awareness that for many people it refers more broadly to the Americas as a whole.
+- The opinions expressed in this blog are my own and do not reflect the views or opinions of the Indiana Historical Society or Rutgers University.
 - I do not own the rights to any of the images used here, and have attempted to provide identifying information when possible.
 - Please contact me before citing this blog, as I may wish to provide more information.
