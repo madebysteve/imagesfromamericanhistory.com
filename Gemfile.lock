@@ -254,13 +254,14 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  x86_64-darwin-18
   x86_64-darwin-19
 
 DEPENDENCIES
   github-pages
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.6.5p114
 
 BUNDLED WITH
-   2.2.4
+   2.2.9
